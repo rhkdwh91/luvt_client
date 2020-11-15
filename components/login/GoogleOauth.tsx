@@ -6,7 +6,7 @@ const GoogleOauth = (props:any) => {
       <GoogleLogin
          clientId='170163842931-jsnume3goqa2338g85g06c8cu7qsdejv.apps.googleusercontent.com'
          render={(props: any) => (
-           <div onClick={props.onClick}>버튼</div>
+           <div onClick={props.onClick}>구글 로그인</div>
          )}
          onSuccess={result => onLoginGoogle(result)}
          onFailure={result => console.log(result)}
