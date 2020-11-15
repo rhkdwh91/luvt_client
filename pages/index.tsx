@@ -1,4 +1,4 @@
-import GoogleAouth from "components/login/GoogleAouth";
+import GoogleOauth from "components/login/GoogleOauth";
 
 const main = () => {
   const onLoginGoogle = (result:any) => {
@@ -8,7 +8,7 @@ const main = () => {
   return (
     <div>
       Hello, World!
-      <GoogleAouth onLoginGoogle={onLoginGoogle} />
+      <GoogleOauth onLoginGoogle={onLoginGoogle} />
     </div>
   )
 }

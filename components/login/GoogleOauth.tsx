@@ -1,6 +1,6 @@
 import GoogleLogin from 'react-google-login';
 
-const GoogleAouth = (props:any) => {
+const GoogleOauth = (props:any) => {
   const { onLoginGoogle } = props;
   return (
       <GoogleLogin
@@ -15,4 +15,4 @@ const GoogleAouth = (props:any) => {
   );
 };
 
-export default GoogleAouth;
+export default GoogleOauth;
